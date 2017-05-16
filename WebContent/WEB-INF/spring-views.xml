@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+
+	<bean name="locPdf" class="com.risha.controller.views.LocationPdfView"/>
+	
+	<bean name="locPdfSingle" class="com.risha.controller.views.LocationPdfViewSingle"/>
+
+	<bean name="venPdf" class="com.risha.controller.views.VendorPdfView"/>
+	
+	<bean name="venPdfSingle" class="com.risha.controller.views.VendorPdfViewSingle"/>
+	
+	<bean name="cusPdf" class="com.risha.controller.views.CustomerPdfView"/>
+	<bean name="cusPdfSingle" class="com.risha.controller.views.CustomerPdfViewSingle"/>
+	
+	<bean name="custExcel" class="com.risha.controller.views.CustomerExcelView"/>
+	
+	<bean name="locExcel" class="com.risha.controller.views.LocationExcelView"/>
+	
+	<bean name="venExcel" class="com.risha.controller.views.VendorExcelView"/>
+
+</beans>
